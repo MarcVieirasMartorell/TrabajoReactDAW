@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/css/styles.css">
+  <title>Filter Animals</title>
+</head>
+<body>
+  <header>
+    <h1>🐾 Pet Adoption Center</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/filters.html">View Animals</a></li>
+        <li><a href="/src/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Filter Animals</h2>
+      <form id="filter-form">
+        <label for="species">Species:</label>
+        <select id="species" name="species">
+          <option value="">Any</option>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+          <option value="Bird">Bird</option>
+          <option value="Reptile">Reptile</option>
+        </select>
+
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+          <option value="">Any</option>
+          <option value="Puppy">Puppy</option>
+          <option value="Adult">Adult</option>
+          <option value="Senior">Senior</option>
+        </select>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+          <option value="">Any</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+        </select>
+
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex">
+          <option value="">Any</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+        <button type="submit">Apply Filters</button>
+      </form>
+    </section>
+    
+    <section id="animal-results">
+      <h2>Available Animals</h2>
+      <div id="animals-list">
+        <!-- JavaScript will populate this section with filtered animals -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Pet Adoption Center. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="/src/js/filters.js"></script>
+</body>
+</html>

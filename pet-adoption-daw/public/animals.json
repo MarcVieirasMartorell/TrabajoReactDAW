@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Yuki",
+    "species": "Cat",
+    "age": "7 years",
+    "size": "Medium",
+    "sex": "male",
+    "photo": "/public/animals/yuki.jpeg",
+    "description": "Yuki is a reserved cat who enjoys napping and birdwatching. He is looking for a quiet home with a patient owner who can give him the love and attention he deserves."
+  },
+  {
+    "id": 2,
+    "name": "Niko",
+    "species": "Cat",
+    "age": "5 years",
+    "size": "Medium",
+    "sex": "male",
+    "photo": "/animals/niko.jpg",
+    "description": "Niko is a playful cat who loves chasing toys and lounging in the sun. He is looking for a forever home with a loving family who can keep up with his energy."
+  },
+  {
+    "id": 3,
+    "name": "Midir",
+    "species": "Bird",
+    "age": "1 year",
+    "size": "Small",
+    "sex": "female",
+    "photo": "/animals/midir.jpeg",
+    "description": "Midir is a sweet bird who enjoys company and playing with her toys. She is looking for a caring owner who can provide her with a safe and loving environment."
+  }
+]
